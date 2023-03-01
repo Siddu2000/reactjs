@@ -1,25 +1,25 @@
 function addNumbers(){
-    var a=parseInt(document.getElementById("value1").value)
-    var b=parseInt(document.getElementById("value2").value)
-    var c=a+b;    
-    alert("sum="+c);
-    
+    let a=parseInt(document.getElementById("value1").value)
+    let b=parseInt(document.getElementById("value2").value)
+    let c=a+b;
+     alert("sum of 2 number="+c);
+
 }
 function subNumbers(){
-    var a=(document.getElementById("value1").value)
-    var b=(document.getElementById("value2").value)
-    var c=a-b;    
-    alert("difference="+c);
+    let a=(document.getElementById("value1").value)
+    let b=(document.getElementById("value2").value)
+    let c=a-b;
+    alert("difference of 2 number="+c);
 }
 function mulNumbers(){
-    var a=(document.getElementById("value1").value)
-    var b=(document.getElementById("value2").value)
-    var c=a*b;    
-    alert("product="+c);
+    let a=(document.getElementById("value1").value)
+    let b=(document.getElementById("value2").value)
+    let c=a*b;
+    alert("multiplication of 2 number="+c);
 }
 function divNumbers(){
-    var a=(document.getElementById("value1").value)
-    var b=(document.getElementById("value2").value)
-    var c=a/b;    
-    alert("division result="+c);
+    let a=(document.getElementById("value1").value)
+    let b=(document.getElementById("value2").value)
+    let c=a/b;
+    alert("division of 2 number="+c);
 }
